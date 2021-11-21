@@ -1,8 +1,12 @@
 # LOAN PREDICTION ANALYSIS 
 
-# Overview of the analysis: Explain the purpose of this analysis.
+<br>
+
+# Overview
 
 The purpose of the analysis was to classify credit risks from the Lending Club dataset to more accurately determine risky and non-risky loans. We ran our analysis through six machine learning models and have summarized our results below.
+
+<br>
 
 # The Machine Learning Models
 
@@ -52,6 +56,8 @@ SMOTEENN Confusion Matrix:
 
 ![smoteenn](https://github.com/rainmannyc/Credit_Risk_Analysis/blob/e5b603f2bd932ef489f6984fe98cd9a342ec9abf/Resources/combo_cm.png)
 
+<br>
+
 ## Ensemble Learners: Balanced Random Forest Classifier & Easy Ensemble AdaBooster Classifier
 
 For our first Ensemble learning model, we ran a Balanced Random Forest Classifier with the following results below:
@@ -75,6 +81,8 @@ Our second Ensemble model and our final model is the Easy Ensemble AdaBooster Cl
 Easy Ensemble AdaBooster Classifier Confusion Matrix:
 
 ![easy_e_cm](https://github.com/rainmannyc/Credit_Risk_Analysis/blob/e5b603f2bd932ef489f6984fe98cd9a342ec9abf/Resources/easy_e_cm.png)
+
+<br>
 
 # Conclusion
 
