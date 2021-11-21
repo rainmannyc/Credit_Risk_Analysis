@@ -15,7 +15,8 @@ In our first model, we explored a Naive Random Oversampling model, a logistic re
 
 Naive Random Oversampling Confusion Matrix:
 
-<img>
+![naive_cm](https://github.com/rainmannyc/Credit_Risk_Analysis/blob/e5b603f2bd932ef489f6984fe98cd9a342ec9abf/Resources/naive_cm.png)
+
 
 For our second model we examined a SMOTE Oversampling model, another logistic regression model which yielded us the following results:
 
@@ -26,7 +27,7 @@ For our second model we examined a SMOTE Oversampling model, another logistic re
 
 SMOTE Oversampling Confusion Matrix:
 
-<img>
+![smote_cm](https://github.com/rainmannyc/Credit_Risk_Analysis/blob/e5b603f2bd932ef489f6984fe98cd9a342ec9abf/Resources/smote_cm.png)
 
 On our third model, we explored an Undersampling model with undersampling algorithms. We used the Clustering Centroids algorithm to yield the following results:
 
@@ -37,7 +38,7 @@ On our third model, we explored an Undersampling model with undersampling algori
 
 Undersampling Confusion Matrix:
 
-<img>
+![undersampling_cm](https://github.com/rainmannyc/Credit_Risk_Analysis/blob/e5b603f2bd932ef489f6984fe98cd9a342ec9abf/Resources/undersampling_cm.png)
 
 
 Our fourth model was carried out using a combination of Oversampling and Undersampling algorithms. We used a SMOTEENN algorithm to yield the following results:
@@ -49,7 +50,7 @@ Our fourth model was carried out using a combination of Oversampling and Undersa
 
 SMOTEENN Confusion Matrix:
 
-<img>
+![smoteenn](https://github.com/rainmannyc/Credit_Risk_Analysis/blob/e5b603f2bd932ef489f6984fe98cd9a342ec9abf/Resources/combo_cm.png)
 
 ## Ensemble Learners: Balanced Random Forest Classifier & Easy Ensemble AdaBooster Classifier
 
@@ -62,7 +63,7 @@ For our first Ensemble learning model, we ran a Balanced Random Forest Classifie
 
 Balanced Random Forest Classifier Confusion Matrix:
 
-<img>
+![r_forest_cm](https://github.com/rainmannyc/Credit_Risk_Analysis/blob/e5b603f2bd932ef489f6984fe98cd9a342ec9abf/Resources/r_forest_cm.png)
 
 Our second Ensemble model and our final model is the Easy Ensemble AdaBooster Classifier:
 
@@ -73,9 +74,9 @@ Our second Ensemble model and our final model is the Easy Ensemble AdaBooster Cl
 
 Easy Ensemble AdaBooster Classifier Confusion Matrix:
 
-<img>
+![easy_e_cm](https://github.com/rainmannyc/Credit_Risk_Analysis/blob/e5b603f2bd932ef489f6984fe98cd9a342ec9abf/Resources/easy_e_cm.png)
 
-# Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+# Conclusion
 
 All in all, all models performed above 60% accuracy apart from our Undersampling model which had the lowest accuracy score and underperformed at 51% and an F1 score of only .58. This would be a model I would not recommend.
 
